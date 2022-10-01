@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0px 100px;
+}
+
+/* topnavbar */
+.navbar-top{
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+.navtop-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ques {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.ques ul {
+    list-style-type: none;
+}
+
+.ques ul li {
+    display:inline-block;
+    margin-right: 15px;
+}
+.ques ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ques ul li i{
+
+}
+
+.right{
+    margin-top: 10px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+/* media querie */
+@media (max-width:1025px){
+    .ques ul li span,a{
+        display: none;
+    }
+    .right a{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+}
+/* header */
+.header{
+    background-image: url("../images/at-school-2-1524670.jpg");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no;
+    height: 500px;
+    padding: 10px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    width: 12%;
+}
+.logo img{
+    width: 100%;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px; 
+}
+.content {
+    margin-top: 150px;
+    text-transform: uppercase;
+    
+}
+.content a{
+    color: white;
+    margin-top: 150px;
+    text-decoration: none;
+    
+}
+.content a h4{
+    font-size: 20px;
+}
+.content a h2{
+    font-size: 35px;
+    font-weight:800;
+    line-height: 40px;
+    letter-spacing:.5;
+}
+button{
+    background-color: yellow;
+    border: yellow;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+}
+@media (max-width:1025px){
+    .micon i{
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .nav{
+        display: none;
+    }
+    
+}
+@media (min-width:1025px){
+    .micon i{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
