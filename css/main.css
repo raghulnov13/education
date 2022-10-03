@@ -6,18 +6,20 @@
 }
 
 /* topnavbar */
-.navbar-top{
+.navbar-top {
     background-color: black;
     color: white;
     height: 35px;
 }
-.navtop-flex{
+
+.navtop-flex {
     margin: auto 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
+
 .ques {
     margin-top: 10px;
     font-size: 13px;
@@ -28,147 +30,192 @@
 }
 
 .ques ul li {
-    display:inline-block;
+    display: inline-block;
     margin-right: 15px;
 }
-.ques ul li a{
+
+.ques ul li a {
     text-decoration: none;
     color: white;
 }
-.ques ul li i{
 
-}
+.ques ul li i {}
 
-.right{
+.right {
     margin-top: 10px;
 }
-.right a{
+
+.right a {
     text-decoration: none;
     color: white;
 }
 
 /* header */
-.header{
+.header {
     background-image: url("../images/at-school-2-1524670.jpg");
-    background-position:top;
+    background-position: top;
     background-size: cover;
     background-repeat: no;
     height: 600px;
     padding: 10px;
 }
-.header-flex{
+
+.header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 80px;     
+    margin: auto 80px;
 }
-.logo{
+
+.logo {
     width: 12%;
 }
-.logo img{
+
+.logo img {
     width: 100%;
 }
-.nav ul{
+
+.nav ul {
     list-style-type: none;
 }
-.nav ul li{
+
+.nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
-.nav ul li a{
+
+.nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-size: 14px; 
+    font-size: 14px;
 }
+
 .content {
     margin: 150px 80px 0px 80px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
-.content a{
+
+.content a {
     color: white;
-    text-decoration: none;  
-    display: block; 
+    text-decoration: none;
+    display: block;
 }
-.content a h4{
+
+.content a h4 {
     font-size: 20px;
     margin-bottom: 15px;
 }
-.content a h2{
+
+.content a h2 {
     font-size: 55px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 40px;
-    letter-spacing:.5;
+    letter-spacing: .5;
     margin-bottom: 15px;
 }
-button{
+
+button {
     background-color: yellow;
     border: yellow;
     border-radius: 5px;
     color: black;
     padding: 10px 20px;
 }
+
 /* banner */
-.banner{
+.banner {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    
-    
 }
-.group{
+
+.group {
     display: flex;
     justify-content: space-between;
     background-color: rgba(26, 3, 3, 0.692);
     padding: 30px 25px;
     transition: 0.3s all;
-    
 }
-.grp-icon{
+
+.grp-icon {
     margin-top: 10px;
 }
-.grp-icon i{
+
+.grp-icon i {
     font-size: 55px;
     color: yellow;
-    
+
 }
-.grp-content{
+
+.grp-content {
     color: white;
     width: 70%;
 }
-.grp-content h5{
+
+.grp-content h5 {
     font-size: 20px;
     text-transform: uppercase;
     line-height: 25px;
     margin-bottom: 15px;
 }
-.grp-content a{
+
+.grp-content a {
     text-decoration: none;
     color: white;
 }
-.group:hover{
+
+.group:hover {
     background-color: rgba(12, 5, 5, 0.815);
 
 }
 
+/* courses */
+.courses {
+    
+}
 
+.section-title {}
 
+.section-title h2 {}
 
+.section-title p {}
 
+.section-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.section-card{
+    border: 1px solid gray;
+}
 
+.course-img {
+    position: relative;
+}
 
+.course-img img {}
 
+.keny-img {
+    width: 30%;
+    position: absolute;
 
+}
 
+.keny-img img {
+    width: 20%;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
 
+.keny-img h5 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
 
-
-
-
-
-
-
-
-
-
+.course-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

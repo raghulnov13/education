@@ -20,13 +20,11 @@
     }
     .header-flex{
         margin: 0;
-        margin-bottom: 400px;
+        /* margin-bottom: 400px; */
     }
     .header-flex .logo{
-        width: 18%;
-        
+        width: 18%;   
     }
-    
     .micon i{
         display: inline-block;
         color: white;
@@ -38,7 +36,7 @@
     }
     .content {
         margin-left: 0;
-        margin-bottom: 350px;
+        /* margin-bottom: 450px; */
     }
     .banner{
         display: flex;
@@ -48,6 +46,9 @@
         display: flex;
         justify-content: space-between;
         margin-right: 10px;
+    }
+    .grp-content{
+        width: 100%;
     }
     .grp-content a {
         display: block;
@@ -62,5 +63,41 @@
 @media (min-width:1025px){
     .micon i{
         display: none;
+    }
+}
+
+@media (max-width:767px){
+    .header-flex .logo{
+        width: 40%;
+        
+    }
+    .content a h4{
+        line-height: 30px;
+    }
+    .content a h2{
+        line-height: 40px;
+    }
+    .content {
+        margin-left: 0;
+        margin-bottom: 580px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .group{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .grp-content{
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .content {
+        margin-left: 0;
+        margin-bottom: 450px;
     }
 }
