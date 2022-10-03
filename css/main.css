@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    margin: 0px 100px;
-}
 
 /* topnavbar */
 .navbar-top{
@@ -15,7 +12,9 @@
     height: 35px;
 }
 .navtop-flex{
+    margin: auto 80px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     
 }
@@ -47,31 +46,21 @@
     text-decoration: none;
     color: white;
 }
-/* media querie */
-@media (max-width:1025px){
-    .ques ul li span,a{
-        display: none;
-    }
-    .right a{
-        display: inline-block;
-        margin-right: 10px;
-    }
-    
-}
+
 /* header */
 .header{
     background-image: url("../images/at-school-2-1524670.jpg");
     background-position:top;
     background-size: cover;
     background-repeat: no;
-    height: 500px;
+    height: 600px;
     padding: 10px;
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
-    
-    
+    align-items: center;
+    margin: auto 80px;     
 }
 .logo{
     width: 12%;
@@ -93,24 +82,24 @@
     font-size: 14px; 
 }
 .content {
-    margin-top: 150px;
-    text-transform: uppercase;
-    
+    margin: 150px 80px 0px 80px;
+    text-transform: uppercase; 
 }
 .content a{
     color: white;
-    margin-top: 150px;
-    text-decoration: none;
-    
+    text-decoration: none;  
+    display: block; 
 }
 .content a h4{
     font-size: 20px;
+    margin-bottom: 15px;
 }
 .content a h2{
-    font-size: 35px;
-    font-weight:800;
+    font-size: 55px;
+    font-weight:700;
     line-height: 40px;
     letter-spacing:.5;
+    margin-bottom: 15px;
 }
 button{
     background-color: yellow;
@@ -119,23 +108,49 @@ button{
     color: black;
     padding: 10px 20px;
 }
-@media (max-width:1025px){
-    .micon i{
-        display: inline-block;
-        color: white;
-        font-size: 20px;
-        margin-right: 10px;
-    }
-    .nav{
-        display: none;
-    }
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
     
 }
-@media (min-width:1025px){
-    .micon i{
-        display: none;
-    }
+.group{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(26, 3, 3, 0.692);
+    padding: 30px 25px;
+    transition: 0.3s all;
+    
 }
+.grp-icon{
+    margin-top: 10px;
+}
+.grp-icon i{
+    font-size: 55px;
+    color: yellow;
+    
+}
+.grp-content{
+    color: white;
+    width: 70%;
+}
+.grp-content h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.grp-content a{
+    text-decoration: none;
+    color: white;
+}
+.group:hover{
+    background-color: rgba(12, 5, 5, 0.815);
+
+}
+
 
 
 
