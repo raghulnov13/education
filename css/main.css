@@ -172,23 +172,29 @@ button {
 
 /* courses */
 .courses {
-    
+    padding: 50px;
 }
 
 .section-title {}
 
-.section-title h2 {}
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
 
-.section-title p {}
+.section-title p {
+    line-height: 40PX;
+    color: grey;
+}
 
-.section-flex{
+.section-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-card{
-    width:25%;
+.section-card {
+    width: 25%;
     border: 1px solid gray;
     margin: 25px;
 }
@@ -205,41 +211,55 @@ button {
 
 .keny-img {
     position: absolute;
-    right: 112px;
-    bottom: -40px;
-
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
 }
 
 .keny-img img {
     width: 50px;
     border-radius: 50%;
-    background-color: antiquewhite;
+    border: 3px solid white;
 }
 
 .keny-img h5 a {
     text-decoration: none;
-    color:gray;
+    color: grey;
     font-size: 12px;
 }
-.course-content{
-    margin-top: 50px;
+
+.course-content {
+    padding: 50px 20px 10px;
     text-align: center;
     border-bottom: 1px solid grey;
-    
+
+    line-height: 18px;
+
 }
+
 .course-content a {
     text-decoration: none;
-    color: rgba(128, 128, 128, 0.856);
+    color: grey;
     font-size: 16px;
 }
-.course-end{
+
+.course-end {
     margin: 15px 20px;
 }
-.course-end span{
+
+.course-end span {
     display: inline-block;
     margin-right: 10px;
 }
-#end{
+
+.course-end span i {
+    color: grey;
+}
+
+#end {
     color: red;
     padding-left: 60px;
 }
