@@ -183,39 +183,63 @@ button {
 
 .section-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-card{
+    width:25%;
     border: 1px solid gray;
+    margin: 25px;
 }
 
 .course-img {
     position: relative;
+    width: 100%;
 }
 
-.course-img img {}
+.course-img img {
+    width: 100%;
+    height: auto;
+}
 
 .keny-img {
-    width: 30%;
     position: absolute;
+    right: 112px;
+    bottom: -40px;
 
 }
 
 .keny-img img {
-    width: 20%;
+    width: 50px;
     border-radius: 50%;
     background-color: antiquewhite;
 }
 
 .keny-img h5 a {
     text-decoration: none;
-    color: black;
+    color:gray;
     font-size: 12px;
 }
-
+.course-content{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    
+}
 .course-content a {
     text-decoration: none;
-    color: black;
-    font-size: 18px;
+    color: rgba(128, 128, 128, 0.856);
+    font-size: 16px;
+}
+.course-end{
+    margin: 15px 20px;
+}
+.course-end span{
+    display: inline-block;
+    margin-right: 10px;
+}
+#end{
+    color: red;
+    padding-left: 60px;
 }
